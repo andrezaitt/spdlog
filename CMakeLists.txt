@@ -26,7 +26,7 @@ add_library(spdlog INTERFACE)
 
 option(SPDLOG_BUILD_EXAMPLES "Build examples" OFF)
 cmake_dependent_option(SPDLOG_BUILD_TESTING
-    "Build spdlog tests" ON
+    "Build spdlog tests" OFF
     "BUILD_TESTING" OFF
 )
 
